@@ -1,0 +1,187 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 100vw;
+    margin: 0 auto;
+
+}
+
+h1,h2 {
+    font-family: 'Rowdies', sans-serif;
+}
+
+p {
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: start;
+    line-height: 1.8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 10px 0;
+    background-color: #ef233c;
+    border: none;
+    border-radius: 10px;
+    color:#f8edeb;
+    font-size: 16px;
+}
+
+#red-text{
+    color:#ef233c;
+    text-decoration: underline solid 3px #ef233c;
+}
+
+/* Hero section */
+
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url(su-san-lee-E_eWwM29wfU-unsplash.jpg);
+    height: 80vh;
+    max-width: auto;
+    padding: 0;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+#hero h1{
+    font-size: 80px;
+}
+
+#hero:hover {
+    background-image: url(images/tokyo.gif);
+
+
+
+}
+
+
+
+/* About section */
+#about {
+    background-color: #ffffff;
+    text-align: center;
+    text-align: center;
+}
+
+
+
+#about:hover {
+    background-image: url(blossom.gif);
+}
+
+#about-img {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border: 10px solid #f8edeb;
+
+}
+
+
+/* Guide section */
+
+
+#tour-guide {
+    text-align: center;
+    background-color: #eaf4f4;
+}
+
+#guide-img {
+    width: 400px;
+    border-radius: 20px;
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-transition: all 1s ease;
+
+    
+
+}
+
+#guide-img:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+
+}
+
+/* Blog */
+#blog {
+    text-align: center;
+   
+
+
+
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+
+#blog-img {
+    width: 600px;
+}
+
+#p-article {
+    text-align: justify;
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer */
+
+#footer{
+  background-color:#eaf4f4;
+
+}
+
+#p-footer{
+    text-align: center;
+}
+
+
+/* Animations */
+
+.grow
+{
+    transition: 1s ease;
+    }
+    
+    .grow:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+
+    .rotate{
+        transition: 1s ease;
+        }
+        
+        .rotate:hover{
+        -webkit-transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        transform: rotateZ(-10deg);
+        transition: 1s ease;
+        }
