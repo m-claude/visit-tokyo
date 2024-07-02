@@ -48,7 +48,7 @@ button {
     flex-direction: column;
     background-image: url(su-san-lee-E_eWwM29wfU-unsplash.jpg);
     height: 80vh;
-    max-width: 100%;
+    width: 100%;
     padding: 0;
     align-items: center;
     justify-content: center;
@@ -56,15 +56,16 @@ button {
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+    color: #fff;
 }
 
 #hero h1 {
     font-size: 5vw;
-    color: #fff;
 }
 
 #hero:hover {
     background-image: url(tokyo.gif);
+    background-size: cover;
 }
 
 /* About section */
@@ -160,6 +161,11 @@ button {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    #hero {
+        background-attachment: scroll;
+        height: 60vh;
+    }
+
     #hero h1 {
         font-size: 8vw;
     }
@@ -175,6 +181,11 @@ button {
 }
 
 @media (max-width: 480px) {
+    #hero {
+        background-attachment: scroll;
+        height: 50vh;
+    }
+
     #hero h1 {
         font-size: 10vw;
     }
@@ -184,6 +195,11 @@ button {
         padding: 6px 12px;
     }
 }
+
+    
+
+ 
+  
 
 
     
